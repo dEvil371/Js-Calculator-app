@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.main-body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.cal-body
+{
+    border: 2px solid black;
+}
+.display-panel
+{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+}
+.display-panel input
+{
+    height: 40px;
+    width: 300px;
+    margin: 0px 10px;
+}
+.button-area
+{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+.button-place
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0.5rem;
+}
+.btn
+{
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+}
+
